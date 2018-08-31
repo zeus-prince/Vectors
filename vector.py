@@ -9,9 +9,9 @@ from math import atan2,acos
 class vector():
     
     def _init_(self,v): # constructor to initialize a vector from a given vector
-        self.x = v.x #x component of the vector
-        self.y = v.y #y component of the vector
-        self.z = v.z #z component of the vector
+        self.x = v.x    # x component of the vector
+        self.y = v.y    # y component of the vector
+        self.z = v.z    # z component of the vector
     
     def __init__(self,x = 0,y = 0,z = 0): 
         if isinstance(x,vector):
